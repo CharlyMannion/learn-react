@@ -1,5 +1,11 @@
 # React Tic Tac Toe
 
+This is a project to build a version of the game Tic Tac Toe using react. It was completed as a learning exercise
+
+## Using the app
+
+* `git clone https://github.com/CharlyMannion/learn-react`
+* `npm start`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
