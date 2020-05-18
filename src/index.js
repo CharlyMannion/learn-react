@@ -76,6 +76,7 @@ class Game extends React.Component {
   }
 
   render() {
+    const history = this.state.history;
     return (
       <div className="game">
         <div className="game-board">
