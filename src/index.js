@@ -83,7 +83,6 @@ class Game extends React.Component {
     const history = this.state.history;
     const current = history[this.state.stepNumber];
     const winner = calculateWinner(current.squares);
-    // const draw = calculateDraw(current.squares);
 
     const moves = history.map((step, move) => {
       const desc = move ?
@@ -147,8 +146,4 @@ function calculateWinner(squares) {
     }
   }
   return null;
-};
-
-// function calculateDraw(squares) {
-  // if there is no winner and no square is empty then it is a draw
-// }
+}
